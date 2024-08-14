@@ -11,7 +11,7 @@ API_ID = int(getenv("API_ID", "24054192"))
 API_HASH = getenv("API_HASH", "ed9a8a61a1b4a1ad0915cbe87ba490ed")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7306038083:AAEJW6I1ScS9suERJcu5SQXpYznV-2RNw8Q")
+BOT_TOKEN = getenv("BOT_TOKEN", "7306038083:AAEljN8HhyQ2daFsSya1qZ_X4BPxn4Ab_Lg")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://madpanel:madboy11@atlascluster.gprqayn.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster")
@@ -36,7 +36,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Meyit47zade/MYTGRUPBOT",
+    "https://github.com/AnonymousX1025/AnonXMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -73,7 +73,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 3221225472))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", "BACKF0MAhLpMXY85Y6c8AlSBCSWQzXDmsmn13GJ9pu9f8w9l5oDcTwnIESjxGQGAfxO49OlMlALY2nzwgsGiqcLVbcw_cl15_02VleASc-VfianCOAVzkJcQnjsPCSgvVTx7YtQBdGLLd7oZ_OafqR9_K9QMZc7wBvTPjQwf1NOasKo5Gy4SaHAgSYx5jRdNBk5-Nzba0A8zgIVk_FjNU4SH_Z1OOtRpHtTZD1W0A70Yq4VHhbqtgr9Hg30EOeOQZoXCACIzkKdObsEsgDzlDaO3k5UJQFMnS5bKwfukUSEsWQ6HdT8saAoIjzFHqs5BE15V71_yTFk9_bBdC7z4_X-ZqbIXewAAAAGuhmXrAA")
+STRING1 = getenv("STRING_SESSION1", "BACKF0MAhLpMXY85Y6c8AlSBCSWQzXDmsmn13GJ9pu9f8w9l5oDcTwnIESjxGQGAfxO49OlMlALY2nzwgsGiqcLVbcw_cl15_02VleASc-VfianCOAVzkJcQnjsPCSgvVTx7YtQBdGLLd7oZ_OafqR9_K9QMZc7wBvTPjQwf1NOasKo5Gy4SaHAgSYx5jRdNBk5-Nzba0A8zgIVk_FjNU4SH_Z1OOtRpHtTZD1W0A70Yq4VHhbqtgr9Hg30EOeOQZoXCACIzkKdObsEsgDzlDaO3k5UJQFMnS5bKwfukUSEsWQ6HdT8saAoIjzFHqs5BE15V71_yTFk9_bBdC7z4_X-ZqbIXewAAAAGuhmXrAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
