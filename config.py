@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "28259127"))
-API_HASH = getenv("API_HASH", "43d8370ce91498dec1e0b30365f9a22d")
+API_ID = int(getenv("API_ID", "29938341"))
+API_HASH = getenv("API_HASH", "234eeead61912d630aaacbad924b0789")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7306038083:AAEljN8HhyQ2daFsSya1qZ_X4BPxn4Ab_Lg")
+BOT_TOKEN = getenv("BOT_TOKEN", "6757500151:AAHUS9R9ca_6BOAHa1wU7QmaO32U3MlIO1Y")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://madpanel:madboy11@atlascluster.gprqayn.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster")
@@ -36,18 +36,18 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/AnonymousX1025/AnonXMusic",
+    "https://github.com/Meyit47zade/MYTGRUPBOT",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/GeceExpress")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/GeceExpress")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Sohbetikidebir")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Sohbetikidebir")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "None")
 
 # Time after which you're assistant account will leave chats automatically.
 
@@ -58,9 +58,9 @@ AUTO_LEAVE_ASSISTANT_TIME = int(
 )  # Remember to give value in Seconds
 
 # Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "2041df9cbcd142cba804578a2cf85939")
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "80ffd296320e49299830e80b11e3bf73")
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
@@ -73,7 +73,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 3221225472))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION1", "BAGvMzcAvNIFzeGTP8Cdxjeg9FkdDPzvAXBKFag7Fff7uOCuL5bfMGDzpBCVSY8dN-mEWxDzuOtmMWz4-oojhFAKwNtm520eVAArDt7G4CQq2cv25kX65ESqAZy8hjWlvX8KZa-JG9liEaxoAIEenKGgcB5BiQ4MJGdaZpcv4QqKMLedtGDKlts7SnfdBzXSzHyTa6w3fw9YIE0yRIoAyALUA8NsqBq9EoDVTQr5AU9tZoE2qhz9J2lvZl3CzTqftuPItF06P1luLGT4y3U6oLtwOitDQoUkyRqrfhdccoMR7LaJXNk5Fx5llKvhr2MKEVEi7PuLpm0oq2xMxL2189wgJdmgRAAAAAG8XtUSAA")
+STRING1 = getenv("STRING_SESSION", "BAHI0qUAFN2_NvT7unI0qiM97ze2Y25Ag7yfvy8txx30dl-zov_PpMdQfxmnGckK82HRJ8xNJZpmedCFZoLmIosTO11WTpu8pS0Hh4uWcweMuqbOdwqOLzME8-g_PdSvk-u4OiHrUgVrE-uDOA1Ynrga4AtAzQDJxBhJFO0pNfTsqVQwIiyZEUHTumhMz-xLaI7EZ-3S_g7wf73LLPULkZhjzbE08jwtrPKuk_M3voZd1sWzjWO0W_P91lfAUe9pEbLDcFT78XYrNSFS7aw-pdMUJDomDzBzCoc7L_oNeLE0IEKgk4xx6FJpXuDcHec46O8dnsEpIlOs-s3Qwper72Ti_DKI1QAAAAG0r2kqAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -92,21 +92,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/321decfc24b08c837626c.jpg"
+    "START_IMG_URL", "https://photos.app.goo.gl/RGsiHThq6F87Zkta9"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/321decfc24b08c837626c.jpg"
+    "PING_IMG_URL", "https://photos.app.goo.gl/RGsiHThq6F87Zkta9"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/321decfc24b08c837626c.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/321decfc24b08c837626c.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/321decfc24b08c837626c.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/321decfc24b08c837626c.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/321decfc24b08c837626c.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/321decfc24b08c837626c.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/321decfc24b08c837626c.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/321decfc24b08c837626c.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/321decfc24b08c837626c.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/321decfc24b08c837626c.jpg"
+PLAYLIST_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9"
+STATS_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9"
+TELEGRAM_AUDIO_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9"
+TELEGRAM_VIDEO_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9"
+STREAM_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9"
+SOUNCLOUD_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9"
+YOUTUBE_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9"
+SPOTIFY_ARTIST_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9"
+SPOTIFY_ALBUM_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9"
+SPOTIFY_PLAYLIST_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9"
 
 
 def time_to_seconds(time):
