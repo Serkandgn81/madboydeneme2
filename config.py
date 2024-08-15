@@ -92,21 +92,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://drive.google.com/file/d/10MqdfPKD72uJs3uuEiyj9JHknNzdmWHa/view?usp=drivesdk"
+    "START_IMG_URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbo2pvt1D14-cp4ChdEBSukZC55OCmhv8KIsKH8DtDvg-o2aB76ON7CN6_&s=10"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://drive.google.com/file/d/10MqdfPKD72uJs3uuEiyj9JHknNzdmWHa/view?usp=drivesdk"
+    "PING_IMG_URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbo2pvt1D14-cp4ChdEBSukZC55OCmhv8KIsKH8DtDvg-o2aB76ON7CN6_&s=10"
 )
-PLAYLIST_IMG_URL = "https://drive.google.com/file/d/10MqdfPKD72uJs3uuEiyj9JHknNzdmWHa/view?usp=drivesdk"
-STATS_IMG_URL = "https://drive.google.com/file/d/10MqdfPKD72uJs3uuEiyj9JHknNzdmWHa/view?usp=drivesdk"
-TELEGRAM_AUDIO_URL = "https://drive.google.com/file/d/10MqdfPKD72uJs3uuEiyj9JHknNzdmWHa/view?usp=drivesdk"
-TELEGRAM_VIDEO_URL = "https://drive.google.com/file/d/10MqdfPKD72uJs3uuEiyj9JHknNzdmWHa/view?usp=drivesdk"
-STREAM_IMG_URL = "https://drive.google.com/file/d/10MqdfPKD72uJs3uuEiyj9JHknNzdmWHa/view?usp=drivesdk"
-SOUNCLOUD_IMG_URL = "https://drive.google.com/file/d/10MqdfPKD72uJs3uuEiyj9JHknNzdmWHa/view?usp=drivesdk"
-YOUTUBE_IMG_URL = "https://drive.google.com/file/d/10MqdfPKD72uJs3uuEiyj9JHknNzdmWHa/view?usp=drivesdk"
-SPOTIFY_ARTIST_IMG_URL = "https://drive.google.com/file/d/10MqdfPKD72uJs3uuEiyj9JHknNzdmWHa/view?usp=drivesdk"
-SPOTIFY_ALBUM_IMG_URL = "https://drive.google.com/file/d/10MqdfPKD72uJs3uuEiyj9JHknNzdmWHa/view?usp=drivesdk"
-SPOTIFY_PLAYLIST_IMG_URL = "https://drive.google.com/file/d/10MqdfPKD72uJs3uuEiyj9JHknNzdmWHa/view?usp=drivesdk"
+PLAYLIST_IMG_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbo2pvt1D14-cp4ChdEBSukZC55OCmhv8KIsKH8DtDvg-o2aB76ON7CN6_&s=10"
+STATS_IMG_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbo2pvt1D14-cp4ChdEBSukZC55OCmhv8KIsKH8DtDvg-o2aB76ON7CN6_&s=10"
+TELEGRAM_AUDIO_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbo2pvt1D14-cp4ChdEBSukZC55OCmhv8KIsKH8DtDvg-o2aB76ON7CN6_&s=10"
+TELEGRAM_VIDEO_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbo2pvt1D14-cp4ChdEBSukZC55OCmhv8KIsKH8DtDvg-o2aB76ON7CN6_&s=10"
+STREAM_IMG_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbo2pvt1D14-cp4ChdEBSukZC55OCmhv8KIsKH8DtDvg-o2aB76ON7CN6_&s=10"
+SOUNCLOUD_IMG_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbo2pvt1D14-cp4ChdEBSukZC55OCmhv8KIsKH8DtDvg-o2aB76ON7CN6_&s=10"
+YOUTUBE_IMG_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbo2pvt1D14-cp4ChdEBSukZC55OCmhv8KIsKH8DtDvg-o2aB76ON7CN6_&s=10"
+SPOTIFY_ARTIST_IMG_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbo2pvt1D14-cp4ChdEBSukZC55OCmhv8KIsKH8DtDvg-o2aB76ON7CN6_&s=10"
+SPOTIFY_ALBUM_IMG_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbo2pvt1D14-cp4ChdEBSukZC55OCmhv8KIsKH8DtDvg-o2aB76ON7CN6_&s=10"
+SPOTIFY_PLAYLIST_IMG_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbo2pvt1D14-cp4ChdEBSukZC55OCmhv8KIsKH8DtDvg-o2aB76ON7CN6_&s=10"
 
 
 def time_to_seconds(time):
