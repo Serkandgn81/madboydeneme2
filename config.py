@@ -43,8 +43,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Sohbetikidebir")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Sohbetikidebir")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/GeceExpress")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/GeceExpress")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "None")
@@ -58,9 +58,9 @@ AUTO_LEAVE_ASSISTANT_TIME = int(
 )  # Remember to give value in Seconds
 
 # Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "2041df9cbcd142cba804578a2cf85939")
 
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "80ffd296320e49299830e80b11e3bf73")
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
@@ -92,21 +92,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://photos.app.goo.gl/RGsiHThq6F87Zkta9"
+    "START_IMG_URL", "https://drive.google.com/file/d/10MqdfPKD72uJs3uuEiyj9JHknNzdmWHa/view?usp=drivesdk"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://photos.app.goo.gl/RGsiHThq6F87Zkta9"
+    "PING_IMG_URL", "https://drive.google.com/file/d/10MqdfPKD72uJs3uuEiyj9JHknNzdmWHa/view?usp=drivesdk"
 )
-PLAYLIST_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9"
-STATS_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9"
-TELEGRAM_AUDIO_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9"
-TELEGRAM_VIDEO_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9"
-STREAM_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9"
-SOUNCLOUD_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9"
-YOUTUBE_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9"
-SPOTIFY_ARTIST_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9"
-SPOTIFY_ALBUM_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9"
-SPOTIFY_PLAYLIST_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9"
+PLAYLIST_IMG_URL = "https://drive.google.com/file/d/10MqdfPKD72uJs3uuEiyj9JHknNzdmWHa/view?usp=drivesdk"
+STATS_IMG_URL = "https://drive.google.com/file/d/10MqdfPKD72uJs3uuEiyj9JHknNzdmWHa/view?usp=drivesdk"
+TELEGRAM_AUDIO_URL = "https://drive.google.com/file/d/10MqdfPKD72uJs3uuEiyj9JHknNzdmWHa/view?usp=drivesdk"
+TELEGRAM_VIDEO_URL = "https://drive.google.com/file/d/10MqdfPKD72uJs3uuEiyj9JHknNzdmWHa/view?usp=drivesdk"
+STREAM_IMG_URL = "https://drive.google.com/file/d/10MqdfPKD72uJs3uuEiyj9JHknNzdmWHa/view?usp=drivesdk"
+SOUNCLOUD_IMG_URL = "https://drive.google.com/file/d/10MqdfPKD72uJs3uuEiyj9JHknNzdmWHa/view?usp=drivesdk"
+YOUTUBE_IMG_URL = "https://drive.google.com/file/d/10MqdfPKD72uJs3uuEiyj9JHknNzdmWHa/view?usp=drivesdk"
+SPOTIFY_ARTIST_IMG_URL = "https://drive.google.com/file/d/10MqdfPKD72uJs3uuEiyj9JHknNzdmWHa/view?usp=drivesdk"
+SPOTIFY_ALBUM_IMG_URL = "https://drive.google.com/file/d/10MqdfPKD72uJs3uuEiyj9JHknNzdmWHa/view?usp=drivesdk"
+SPOTIFY_PLAYLIST_IMG_URL = "https://drive.google.com/file/d/10MqdfPKD72uJs3uuEiyj9JHknNzdmWHa/view?usp=drivesdk"
 
 
 def time_to_seconds(time):
