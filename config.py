@@ -11,7 +11,7 @@ API_ID = int(getenv("API_ID", "29938341"))
 API_HASH = getenv("API_HASH", "234eeead61912d630aaacbad924b0789")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "6757500151:AAFl4VGj0bD_XB6nXRLFhL09Rj7kJHDmMnY")
+BOT_TOKEN = getenv("BOT_TOKEN", "6757500151:AAH-TxbX_WPw8Ya9rjhcXqA-v4BLzYGUeVw")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://madpanel:madboy11@atlascluster.gprqayn.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster")
@@ -35,16 +35,16 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
-    "UPSTREAM_REPO",
-    "https://t.me/DostTicaret",
+    "UPSTREAM_REPO", #ticaret
+    "https://t.me/AcelyaTicaret", 
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/GeceExpressDuyuru")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/GeceExpress")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AcelyaDuyuru") #duyuru
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/GeceExpress") #gurup
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "None")
