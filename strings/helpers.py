@@ -3,10 +3,10 @@ HELP_1 = """
 
 **/c** komutlarını kanalda kullanabilmek için, komutların başına **c** ekleyin.
 
-**/pause veya /durdur**: Çalan akışı duraklatır.
+**/pause veya /dur**: Çalan akışı duraklatır.
 **/resume veya /devam**: Duraklatılmış akışı devam ettirir.
 **/skip veya /atla **: Çalan akışı atlar ve sıradaki parçayı çalmaya başlar.
-**/end** veya **/bitir**: Sıradaki parçayı atlar ve çalan akışı sonlandırır.
+**/kapat** veya **/son**: Sıradaki parçayı atlar ve çalan akışı sonlandırır.
 **/player**: Etkileşimli bir oynatıcı paneli alır.
 **/queue veya /liste**: Sıradaki parçaların listesini gösterir.
 """
@@ -20,7 +20,7 @@ HELP_2 = """
 HELP_3 = """
 **YAYIN YAPMA ÖZELLİĞİ**
 
-**/broadcast veya /reklam [mesaj veya bir mesaja yanıt]**: Bir mesajı sunucu sohbetlerine yayınlar.
+**/broadcast [mesaj veya bir mesaja yanıt]**: Bir mesajı sunucu sohbetlerine yayınlar.
 
 Yayın modları:
 **-pin**: Yayınlanan mesajları sunucu sohbetlerinde sabitler.
@@ -29,7 +29,7 @@ Yayın modları:
 **-assistant**: Botunuzun asistan hesabından mesajı yayınlar.
 **-nobot**: Mesajın yayınlanmasını engeller.
 
-Örnek: /yayın -user -assistant -pin Test yayını
+Örnek: /broadcast -user -assistant -pin Test yayını
 """
 HELP_4 = """
 **CHAT BLACKLIST ÖZELLİĞİ:** [Sadece süper yöneticiler için]
@@ -55,7 +55,7 @@ HELP_6 = """
 Kanallarda ses/video yayını yapabilirsiniz.
 
 /cplay : Kanalın video sohbetinde istenilen ses parçasının yayınını başlatır.
-/cvplay : Kanalın video sohbetinde istenilen video parçasının yayınını başlatır.
+/cvoynat : Kanalın video sohbetinde istenilen video parçasının yayınını başlatır.
 /cplayforce veya /cvplayforce : Devam eden yayını durdurur ve istenilen parçanın yayınını başlatır.
 /channelplay [sohbet kullanıcı adı veya ID] veya [devre dışı] : Kanalı bir gruba bağlar ve grup tarafından gönderilen komutlarla parçaların yayınını başlatır.
 """
@@ -72,8 +72,8 @@ HELP_8 = """
 
 Ongoing yayını döngüde başlatır.
 
-/loop [enable/disable] : Ongoing yayın için döngüyü etkinleştirir/devre dışı bırakır.
-/loop [1, 2, 3, ...] : Verilen değer için döngüyü etkinleştirir.
+/dongu [enable/disable] : Ongoing yayın için döngüyü etkinleştirir/devre dışı bırakır.
+/dongu [1, 2, 3, ...] : Verilen değer için döngüyü etkinleştirir.
 """
 HELP_9 = """
 **BAKIM MODU:** [Sadece süper yöneticiler için]
@@ -100,22 +100,22 @@ HELP_11 = """
 **v :** Video play için kullanılır.
 **force :** Zorla oynatma için kullanılır.
 
-/play , /vplay veya /oynat veya /voynat : Video sohbetinde istenilen parçayı çalmaya başlar.
+/play , /voynat veya /oynat veya /voynat : Video sohbetinde istenilen parçayı çalmaya başlar.
 
-/playforce veya /vplayforce : Devam eden yayını durdurur ve istenilen parçayı çalmaya başlar.
+/playforce veya /voynatforce : Devam eden yayını durdurur ve istenilen parçayı çalmaya başlar.
 """
 HELP_12 = """
 **SHUFFLE QUEUE:**
 
-/shuffle : Sıradaki parçaları karıştırır.
+/karistir : Sıradaki parçaları karıştırır.
 /queue : Karıştırılmış sırayı gösterir.
 """
 
 HELP_13 = """
 **SEEK STREAM:**
 
-/seek [saniye cinsinden süre] : Yayını belirtilen süreye atlar.
-/seekback [saniye cinsinden süre] : Yayını belirtilen süre kadar geri alır.
+/ilerisar [saniye cinsinden süre] : Yayını belirtilen süreye atlar.
+/gerisar [saniye cinsinden süre] : Yayını belirtilen süre kadar geri alır.
 """
 HELP_14 = """
 **SONG DOWNLOAD:**
