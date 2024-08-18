@@ -11,13 +11,13 @@ from config import BANNED_USERS
 
 
 @app.on_message(
-    filters.command(["shuffle", "cshuffle"]) & filters.group & ~BANNED_USERS
+    filters.command(["karıştır", "ckaristir","karistir"]) & filters.group & ~BANNED_USERS
 )
 @AdminRightsCheck
 async def admins(Client, message: Message, _, chat_id):
     check = db.get(chat_id)
     if not check:
-        return await message.reply_text(_["queue_2"])
+        return await message.reply_text(_["liste_2"])
     try:
         popped = check.pop(0)
     except:
