@@ -29,9 +29,9 @@ from config import BANNED_USERS, lyrical
     filters.command(
         [
             "play",
-            "vplay",
+            "voynat",
             "cplay",
-            "cvplay",
+            "cvoynat",
             "playforce",
             "vplayforce",
             "cplayforce",
