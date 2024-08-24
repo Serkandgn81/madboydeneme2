@@ -1,63 +1,33 @@
+from pyrogram.enums import ParseMode
 
-
-from config import LOG, LOG_GROUP_ID
-import psutil
-import time
 from AnonXMusic import app
 from AnonXMusic.utils.database import is_on_off
-from AnonXMusic.utils.database.memorydatabase import (
-    get_active_chats, get_active_video_chats)
-from AnonXMusic.utils.database import (get_global_tops,
-                                       get_particulars, get_queries,
-                                       get_served_chats,
-                                       get_served_users, get_sudoers,
-                                       get_top_chats, get_topp_users)
-
+from config import LOGGER_ID
 
 
 async def play_logs(message, streamtype):
-    chat_id = message.chat.id
-    sayı = await app.get_chat_members_count(chat_id)
-    toplamgrup = len(await get_served_chats())
-    aktifseslisayısı = len(await get_active_chats())
-    aktifvideosayısı = len(await get_active_video_chats())
-    cpu = psutil.cpu_percent(interval=0.5)
-    mem = psutil.virtual_memory().percent
-    disk = psutil.disk_usage("/").percent
-    CPU = f"{cpu}%"
-    RAM = f"{mem}%"
-    DISK = f"{disk}%"
-
-
-    if await is_on_off(LOG):
-        if message.chat.username:
-            chatusername = f"@{message.chat.username}"
-        else:
-            chatusername = "Gizli Grup 🔏"
+    if await is_on_off(2):
         logger_text = f"""
+<b>{app.mention} LOG BAŞLATTI.</b>
 
+<b>📌Grup id :</b> <code>{message.chat.id}</code>
+<b>✏️Grup Adı :</b> {message.chat.title}
+<b>🔗SOHBET NİCK :</b> @{message.chat.username}
 
-📌 **Grup :** {message.chat.title} [`{message.chat.id}`]
-👥 **Üye Sayısı : {sayı}**
-👤 **Kullanıcı :** {message.from_user.mention}
-✏️ **Kullanıcı Adı :** @{message.from_user.username}
-🔢 **Kullanıcı ID :** `{message.from_user.id}`
-🔗 **Grup Linki :** {chatusername}
-🔎 **Sorgu :** {message.text}
+<b>🔢Kullanıcı İd :</b> <code>{message.from_user.id}</code>
+<b>👤Kullanıcı :</b> {message.from_user.mention}
+<b>✏️Kullanıcı Adı :</b> @{message.from_user.username}
 
-**CPU :** {CPU}  ♨️  **RAM :** {RAM}  📂  **DISK :** {DISK}
-
-**Toplam Grup Sayısı : 👉{toplamgrup}**
-
-**Aktif Ses : {aktifseslisayısı}  🌬️  Aktif Video : {aktifvideosayısı}**"""
-        if message.chat.id != LOG_GROUP_ID:
+<b>🔎SORGU :</b> {message.text.split(None, 1)[1]}
+<b>YAYIN TÜRÜ :</b> {streamtype}"""
+        if message.chat.id != LOGGER_ID:
             try:
                 await app.send_message(
-                    LOG_GROUP_ID,
-                    f"{logger_text}",
+                    chat_id=LOGGER_ID,
+                    text=logger_text,
+                    parse_mode=ParseMode.HTML,
                     disable_web_page_preview=True,
                 )
-                await app.set_chat_title(LOG_GROUP_ID, f"AKTİF SES - {aktifseslisayısı}")
             except:
                 pass
         return
