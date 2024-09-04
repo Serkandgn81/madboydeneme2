@@ -10,6 +10,7 @@ heroku3
 motor
 pillow
 psutil
+pyrogram==2.0.106
 py-tgcalls==0.9.7
 pykeyboard
 pyrofork
@@ -21,5 +22,5 @@ spotipy
 tgcrypto
 unidecode
 yt-dlp
+git+https://github.com/alexmercerind/youtube-search-python.git
 youtube-search
-youtube-search-python
