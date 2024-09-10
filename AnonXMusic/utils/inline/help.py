@@ -21,6 +21,12 @@ def help_pannel(_, START: Union[bool, int] = None):
                     text=_["H_B_1"],
                     callback_data="help_callback hb1",
                 ),
+                
+                InlineKeyboardButton(
+                    text=_["S_B_11"],
+                    callback_data="help_callback hb1",
+                ),
+                
                 InlineKeyboardButton(
                     text=_["H_B_2"],
                     callback_data="help_callback hb2",
@@ -115,12 +121,5 @@ def private_help_panel(_):
             ),
         ],
     ]
-    buttons = [
-        [
-            InlineKeyboardButton(
-                text=_["S_B_11"],
-                url=f"https://t.me/{app.username}?start=help",
-            ),
-        ],
-    ]
+    
     return buttons
